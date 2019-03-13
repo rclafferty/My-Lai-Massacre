@@ -1,0 +1,171 @@
+@charset "utf-8";
+body {
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+	font-size: .95em;
+	background-color: #000;
+}
+#outerwrapper {
+	width: 1281px;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+	overflow: visible;
+}
+#header {
+	background-color: #000000;
+	float: left;
+	width: 100%;
+	border: thick double #FFF;
+}
+.logo {
+	font-size: 200%;
+	padding: 0.01em;
+	width: 100%;
+	border: 6px none #f2f4f8;
+	color: #FFFFFF;
+	background-color: #000000;
+	text-align: center;
+	text-decoration: underline;
+}
+#navBar {
+	font-size: 110%;
+	color: #ffffff;
+	float: left;
+	width: 100%;
+}
+#navBar ul {
+	text-align: center;
+	display: block;
+	list-style-type: none;
+}
+#navBar ul li {
+	display: inline;
+	padding-left: 1.5em;
+	padding-right: 1.5em;
+}
+#navBar ul li a:link {
+	font-size: 125%;
+	color: #FFFFFF;
+	text-decoration: none;
+}
+#navBar ul li a:visited {
+	font-size: 125%;
+	color: #FFFFFF;
+	text-decoration: none;
+}
+#navBar ul li a:hover {
+	font-size: 125%;
+	color: #FFFFFF;
+	text-decoration: underline;
+}
+.illusFloatLeft {
+	padding: 10px;
+	float: left;
+}
+#rightColumn {
+	padding: 1em;
+	float: left;
+	width: 47%;
+}
+#content {
+	font-size: 125%;
+	float: left;
+	width: 100%;
+	overflow: auto;
+	color: #FFF;
+	float: left;
+	padding: .25em;
+	margin: 0px;
+}
+#content a:link {
+        color: #FFF;
+        text-decoration: none;
+}
+#content a:hover {
+        color: #FFF;
+        text-decoration: underline;
+        font-size: 100%;
+}
+#content a:visited {
+        color: #FFF;
+        text-decoration: none;
+}
+
+.illusFloatRight {
+	padding: 1em;
+	float: right;
+}
+#footer {
+	text-align: center;
+	vertical-align: middle;
+	float: left;
+	width: 100%;
+	padding-left: .25em;
+	padding-right: .25em;
+	color: #ffffff;
+}
+#footer a:link {
+	color: #ffffff;
+	text-decoration: none;
+}
+#footer a:visited {
+	color: #ffffff;
+	text-decoration: none;
+}
+#footer a:hover {
+	color: #ffffff;
+	text-decoration: underline;
+}
+#peopleBar {
+	color: #ffffff;
+	width: 90%;
+	font-size: 120%;
+	list-style-type: none;
+}
+#peopleBar ul {
+	text-align: center;
+}
+#peopleBar ul li {
+	display: inline;
+	padding-left: 4em;
+	padding-right: 4em;
+}
+#peopleBar ul li a:link {
+	font-size: 90%;
+	color: #ffffff;
+	text-decoration: none;
+}
+#peopleBar ul li a:hover {
+	font-style: italic;
+	font-size: 90%;
+	color: #ffffff;
+	text-decoration: none;
+}
+#peopleBar ul li a:visited {
+	font-size: 90%;
+	color: #ffffff;
+	text-decoration: none;
+}
+#table {
+	width: 45%; /*439*/	
+	border: none;
+	vertical-align: top;
+	margin-left: auto;
+	margin-right: auto;
+	column-width:400;
+	 width="800" align="left" cellpadding="1" cellspacing="10"
+	 
+}
+#tableContent {
+	padding-right: 2em;
+	text-align:left;
+	vertical-align:top;
+}
+#tableContent a:hover {
+	font-size:100%;
+}
